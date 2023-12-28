@@ -7,34 +7,58 @@ font-family: 'Seaweed Script', cursive;
 font-family: 'Syncopate', sans-serif;
 } */
 
-body{
+body {
     text-align: center;
     background-color: #212121;
 }
-h1{
+
+h1 {
     font-family: 'Hammersmith One', sans-serif;
     letter-spacing: 5px;
 
     font-size: 50px;
+    /* font-size:3.5vw; */
     color: #7DE2D1;
     font-weight: lighter;
-    cursor:default;
+    cursor: default;
+
+    @media (max-width:600px) {
+        font-size: 30px;
+
+    }
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     gap: 45px;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-        
-}   
-.input-sec{
-    display: flex; 
-    margin-top: -50px;  
-    position: relative; 
+
+    @media (max-width:600px) {
+        gap: 60px;
+
+
+    }
+
 }
-input{
+
+.input-sec {
+    display: flex;
+    margin-top: -50px;
+    position: relative;
+
+    @media (max-width:600px) {
+
+        margin-top: -30px;
+        /* width: 100px; */
+
+
+    }
+
+}
+
+input {
     margin: 10px;
     padding: 10px 0;
     outline: none;
@@ -45,36 +69,46 @@ input{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-left: 10px;
+
+    @media (max-width:600px) {
+        padding: 7px 0;
+        width: 80%;
+        padding-left: 10px;
+
+
+    }
 }
-.input-btn{
+
+.input-btn {
     position: relative;
     right: 11px;
-    
-    
+
+
     /* padding: -110px 0; */
     color: white;
     border-radius: 7px;
     border-color: #339989;
-    border-style: solid; 
+    border-style: solid;
     border-width: 4px;
     margin: 7px 0;
     background-color: #212121;
 
     cursor: pointer;
 }
-.input-btn p{
+
+.input-btn p {
     display: block;
-    
+
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
 
-.qr-section{
+.qr-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    margin: 20px ;
+
+    margin: 20px;
     margin-bottom: 40px;
 
     width: 370px;
@@ -87,23 +121,21 @@ input{
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.76);
     box-shadow: rgba(210, 210, 210, 0.818) 0px 1px 3px, rgb(255, 255, 255) 0px 1px 2px;
-    
+
 }
-.qr-section #qr-img{
-   
-}
-footer{
+
+footer {
     font-family: 'Alata', sans-serif;
     font-weight: lighter;
     opacity: 40%;
 
-    cursor:default;
-    
+    cursor: default;
+
 
     /* margin-top: px; */
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: #fff;
 
