@@ -1,0 +1,110 @@
+/* font{
+    font-family: 'Alata', sans-serif;
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Reem Kufi', sans-serif;
+font-family: 'Seaweed Script', cursive;
+font-family: 'Syncopate', sans-serif;
+} */
+
+body{
+    text-align: center;
+    background-color: #212121;
+}
+h1{
+    font-family: 'Hammersmith One', sans-serif;
+    letter-spacing: 5px;
+
+    font-size: 50px;
+    color: #7DE2D1;
+    font-weight: lighter;
+    cursor:default;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    justify-content:space-around;
+    align-items: center;
+        
+}   
+.input-sec{
+    display: flex; 
+    margin-top: -50px;  
+    position: relative; 
+}
+input{
+    margin: 10px;
+    padding: 10px 0;
+    outline: none;
+    border: none;
+    width: 300px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.input-btn{
+    position: relative;
+    right: 11px;
+    
+    
+    /* padding: -110px 0; */
+    color: white;
+    border-radius: 7px;
+    border-color: #339989;
+    border-style: solid; 
+    border-width: 4px;
+    margin: 7px 0;
+    background-color: #212121;
+
+    cursor: pointer;
+}
+.input-btn p{
+    display: block;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.qr-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20px ;
+    margin-bottom: 40px;
+
+    width: 370px;
+    height: 370px;
+
+
+    backdrop-filter: blur(10px) saturate(200%);
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgb(51, 153, 138);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.76);
+    box-shadow: rgba(210, 210, 210, 0.818) 0px 1px 3px, rgb(255, 255, 255) 0px 1px 2px;
+    
+}
+.qr-section #qr-img{
+   
+}
+footer{
+    font-family: 'Alata', sans-serif;
+    font-weight: lighter;
+    opacity: 40%;
+
+    cursor:default;
+    
+
+    /* margin-top: px; */
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+
+}
